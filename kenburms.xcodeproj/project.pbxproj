@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8404CACB19A3943400B97E33 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404CACA19A3943400B97E33 /* AAViewController.m */; };
 		CE519EDE180A93B7001D5845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE519EDD180A93B7001D5845 /* UIKit.framework */; };
 		CE519EE0180A93B7001D5845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE519EDF180A93B7001D5845 /* Foundation.framework */; };
 		CE519EE2180A93B7001D5845 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE519EE1180A93B7001D5845 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8404CAC919A3943400B97E33 /* AAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAViewController.h; sourceTree = "<group>"; };
+		8404CACA19A3943400B97E33 /* AAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		CE519EDA180A93B7001D5845 /* kenburms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kenburms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE519EDD180A93B7001D5845 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE519EDF180A93B7001D5845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				CE519EF6180A93B7001D5845 /* TSViewController.m */,
 				CE519EF8180A93B7001D5845 /* TSViewController.xib */,
 				CE519EE4180A93B7001D5845 /* Supporting Files */,
+				8404CAC919A3943400B97E33 /* AAViewController.h */,
+				8404CACA19A3943400B97E33 /* AAViewController.m */,
 			);
 			path = kenburms;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			files = (
 				CE519EEA180A93B7001D5845 /* main.m in Sources */,
 				CE519EEE180A93B7001D5845 /* TSAppDelegate.m in Sources */,
+				8404CACB19A3943400B97E33 /* AAViewController.m in Sources */,
 				CE519EF7180A93B7001D5845 /* TSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +303,7 @@
 				CE519EFF180A93B7001D5845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
