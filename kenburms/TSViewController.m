@@ -8,7 +8,10 @@
 
 #import "TSViewController.h"
 
-@interface TSViewController ()
+@interface TSViewController (){
+    UITableView *_tableView;
+    NSMutableArray *_dataArray;
+}
 
 @end
 
@@ -18,8 +21,12 @@
 {
     [super viewDidLoad];
     NSLog(@"hello...");
-    //hjdshjshdshsdhkdskds
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    [_tableView setDelegate:self];
+    [_tableView setDataSource:self];
+    [_tableView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
+    [self.view addSubview:_tableView];
 }
 
 - (void)didReceiveMemoryWarning
